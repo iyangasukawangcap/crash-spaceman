@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spaceman Crash (Frontend Only)</title>
+<style>
+  body {
+    background: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 2rem;
+  }
+  #multiplier {
+    font-size: 6rem;
+    color: limegreen;
+  }
+  #cashOutBtn {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+  }
+  #cashOutBtn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  #result {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>🚀 Spaceman Crash (No Server)</h1>
+<div id="multiplier">1.00x</div>
+<button id="cashOutBtn">Cash Out</button>
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
